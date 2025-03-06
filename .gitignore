@@ -1,0 +1,22 @@
+# Bazel build files
+bazel-*
+
+# Bazel output directories
+bazel-bin/
+bazel-out/
+bazel-testlogs/
+bazel-genfiles/
+
+# C++ build directories
+build/
+cmake-build-*/
+
+# C++ temporary files
+*.o
+*.obj
+*.so
+*.a
+*.dylib
+*.exe
+*.dll
+*.dSYM/
